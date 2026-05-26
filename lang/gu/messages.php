@@ -1,0 +1,121 @@
+<?php
+
+return [
+    'title' => 'એડુકીપ - સ્માર્ટ શિક્ષણ અને શાળા ડ્રોપઆઉટ વિશ્લેષણ',
+    'welcome_title' => 'એડુકીપ સ્માર્ટ પોર્ટલ',
+    'login_subtitle' => 'વિદ્યાર્થીઓના શાળા ડ્રોપઆઉટ વિશ્લેષણ અને સિમ્યુલેટરને ઍક્સેસ કરવા માટે લૉગ ઇન કરો.',
+    'register_title' => 'ખાતું બનાવો',
+    'register_subtitle' => 'ડ્રોપઆઉટ પરિબળોનું વિશ્લેષણ કરવા માટે નોંધણી કરો.',
+    
+    // Auth Forms
+    'email_label' => 'ઈમેલ સરનામું',
+    'password_label' => 'પાસવર્ડ',
+    'confirm_password_label' => 'પાસવર્ડની પુષ્ટિ કરો',
+    'name_label' => 'પૂરું નામ',
+    'remember_me' => 'મને યાદ રાખો',
+    'login_btn' => 'લૉગ ઇન કરો',
+    'register_btn' => 'નોંધણી કરો',
+    'need_account' => "ખાતું નથી?",
+    'already_account' => 'પહેલેથી જ ખાતું છે?',
+    'login_link' => 'લૉગ ઇન કરો',
+    'register_link' => 'નોંધણી કરો',
+    
+    // Navigation
+    'dashboard' => 'નિયંત્રણ કક્ષ',
+    'school_wise' => 'શાળાવાર',
+    'area_wise' => 'વિસ્તારવાર',
+    'gender_caste' => 'લિંગ અને જ્ઞાતિ',
+    'age_standard' => 'ઉંમર અને ધોરણ',
+    'policy_simulator' => 'નીતિ સિમ્યુલેટર',
+    'logout' => 'લૉગ આઉટ',
+    
+    // Dashboard Stats
+    'total_enrolled' => 'કુલ નોંધણી',
+    'total_dropouts' => 'કુલ શાળા ડ્રોપઆઉટ',
+    'avg_dropout_rate' => 'સરેરાશ ડ્રોપઆઉટ દર',
+    'students_retained' => 'રાખેલા વિદ્યાર્થીઓ',
+    'active_schemes' => 'સક્રિય યોજનાઓ',
+    'total_budget' => 'કુલ નીતિ બજેટ',
+    'critical_schools' => 'ગંભીર શાળાઓ',
+    'recent_reports' => 'તાજેતરના ડ્રોપઆઉટ અહેવાલો',
+    
+    // Status text
+    'active_students' => 'શાળાઓમાં સક્રિય વિદ્યાર્થીઓ',
+    'socio_economic' => 'સામાજिक-આર્થિક ડ્રોપઆઉટ',
+    'state_target' => 'રાજ્ય લક્ષ્યાંક: < 5.0%',
+    'via_interventions' => 'સક્રિય નીતિઓ દ્વારા',
+
+    // School-wise Sub-page
+    'school_wise_title' => 'શાળાવાર ડ્રોપઆઉટ વિશ્લેષણ',
+    'school_wise_subtitle' => 'શાળાઓમાં ડ્રોપઆઉટ દર, કુલ નોંધણી અને સંવેદનશીલતાઓની સરખામણી.',
+    'school_comparison' => 'ડ્રોપઆઉટ દરની સરખામણી (%)',
+    'institutional_db' => 'સંસ્થાકીય ડેટાબેઝ',
+    'search_placeholder' => 'શાળાનું નામ શોધો...',
+    'all_types' => 'તમામ પ્રકાર',
+    'all_areas' => 'તમામ વિસ્તાર',
+    'tbl_school_name' => 'શાળાનું નામ',
+    'tbl_type' => 'પ્રકાર',
+    'tbl_area' => 'વિસ્તાર',
+    'tbl_district' => 'જિલ્લો',
+    'tbl_students' => 'કુલ વિદ્યાર્થીઓ',
+    'tbl_dropouts' => 'ડ્રોપઆઉટ',
+    'tbl_rate' => 'ડ્રોપઆઉટ દર',
+    'tbl_risk' => 'જોખમનું સ્તર',
+
+    // Area-wise Sub-page
+    'area_wise_title' => 'વિસ્તારવાર ડ્રોપઆઉટ વિશ્લેષણ',
+    'area_wise_subtitle' => 'શહેરી અને ગ્રામીણ ડ્રોપઆઉટની સરખામણી અને જિલ્લાવાર અહેવાલો.',
+    'regional_vulnerabilities' => 'પ્રાદેશિક સંવેદનશીલતા',
+    'urban_schools' => 'શહેરી શાળાઓ',
+    'rural_schools' => 'ગ્રામીણ શાળાઓ',
+    'district_leaderboard' => 'જિલ્લા ડ્રોપઆઉટ રેન્કિંગ',
+
+    // Demographics Sub-page
+    'demographic_title' => 'વસ્તીવિષયક ડ્રોપઆઉટ વિશ્લેષણ',
+    'demographic_subtitle' => 'લિંગ ઓળખ અને સામાજિક જૂથોના આધારે ડ્રોપઆઉટ વિશ્લેષણ.',
+    'gender_dynamics' => 'લિંગવાર ડ્રોપઆઉટ ગતિશીલતા',
+    'gender_factors' => 'લિંગ આધારિત ડ્રોપઆઉટ પરિબળો',
+    'caste_analytics' => 'સામાજિક જૂથ / જ્ઞાતિ વિશ્લેષણ',
+    'caste_rates' => 'જ્ઞાતિ જૂથોના ડ્રોપઆઉટ દર',
+    'caste_distribution' => 'સામાજિક જૂથોમાં ડ્રોપઆઉટના કારણોનું વિતરણ',
+
+    // Academic Sub-page
+    'academic_title' => 'શિક્ષણ અને ઉંમરવાર વિશ્લેષણ',
+    'academic_subtitle' => 'ડ્રોપઆઉટ તબક્કાઓને અલગ કરવા માટે શૈક્ષણિક સીમાચિહ્નો અને ઉંમર આધારિત વલણોનું વિશ્લેષણ.',
+    'class_trendline' => 'ધોરણવાર ડ્રોપઆઉટ વલણ (ધોરણ ૧ થી ૧૨)',
+    'age_distribution' => 'ઉંમરના આધારે ડ્રોપઆઉટ વિતરણ',
+    'transitional_shifts' => 'શૈક્ષણિક તબક્કાઓમાં ડ્રોપઆઉટ પરિબળોમાં ફેરફાર',
+
+    // Interventions Sub-page
+    'interventions_title' => 'નીતિગત હસ્તક્ષેપ અને સિમ્યુલેટર',
+    'interventions_subtitle' => 'ડ્રોપઆઉટ દર ઘટાડવા માટે યોજનાઓ ડિઝાઇન અને લાગુ કરો.',
+    'policy_simulator_title' => 'નીતિ અસર સિમ્યુલેટર',
+    'policy_simulator_desc' => 'બજેટ અંદાજ અને ડ્રોપઆઉટ ઘટાડો ગણવા માટે વિદ્યાર્થી જૂથો અને નીતિઓ પસંદ કરો.',
+    'target_dimension' => 'લક્ષ્ય શ્રેણી',
+    'target_value_label' => 'લક્ષ્ય માપદંડ મૂલ્ય',
+    'policy_type' => 'નીતિનો પ્રકાર',
+    'expected_reduction' => 'અપેક્ષિત ડ્રોપઆઉટ ઘટાડો',
+    'recalculate_btn' => 'ફરીથી ગણતરી કરો',
+    'report_dropout_title' => 'શાળા ડ્રોપઆઉટની જાણ કરો',
+    'report_dropout_desc' => 'રીઅલ-ટાઇમ ડેટાબેઝ અપડેટ્સ ચકાસવા માટે ડ્રોપઆઉટ અહેવાલ સબમિટ કરો.',
+    'select_student' => 'સક્રિય વિદ્યાર્થી પસંદ કરો',
+    'primary_reason' => 'પ્રાથમિક કારણ',
+    'file_report_btn' => 'અહેવાલ સબમિટ કરો',
+    'registry_title' => 'સક્રિય નીતિઓની સૂચિ',
+    'sim_target_desc' => 'તમામ :type = \':value\' વિદ્યાર્થીઓને લક્ષ્ય બનાવવામાં આવ્યા છે.',
+    'sim_cost_desc' => 'ખર્ચ: પ્રતિ વર્ષ વિદ્યાર્થી દીઠ ₹:cost.',
+    'db_manager' => 'ડેટાબેઝ મેનેજર',
+    'db_diagnostics' => 'SQLite ડેટાબેઝ નિદાન',
+    'db_connection' => 'કનેક્શન સ્થિતિ',
+    'db_file_path' => 'ડેટાબેઝ ફાઇલ પાથ',
+    'db_file_size' => 'ફાઇલ કદ',
+    'db_stats' => 'ડેટાબેઝ આંકડા',
+    'tbl_users' => 'વપરાશકર્તા ખાતાઓ',
+    'tbl_schools' => 'શાળાઓની સંખ્યા',
+    'tbl_students' => 'નોંધાયેલા વિદ્યાર્થીઓ',
+    'tbl_schemes' => 'સક્રિય નીતિઓ',
+    'add_school_btn' => 'નવી શાળા ઉમેરો',
+    'add_student_btn' => 'વિદ્યાર્થીની નોંધણી કરો',
+    'school_db' => 'શાળા નોંધણી',
+    'student_db' => 'વિદ્યાર્થી વસ્તીવિષયક ડેટાબેઝ'
+];

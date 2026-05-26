@@ -1,0 +1,121 @@
+<?php
+
+return [
+    'title' => 'EduKeep - スマート教育＆中途退学分析',
+    'welcome_title' => 'EduKeep スマートポータル',
+    'login_subtitle' => 'ログインして中途退学分析とシミュレーターにアクセスします。',
+    'register_title' => 'アカウント作成',
+    'register_subtitle' => '中途退学要因の分析を開始するために登録します。',
+    
+    // Auth Forms
+    'email_label' => 'メールアドレス',
+    'password_label' => 'パスワード',
+    'confirm_password_label' => 'パスワードの確認',
+    'name_label' => '氏名',
+    'remember_me' => 'ログイン状態を保持する',
+    'login_btn' => 'ログイン',
+    'register_btn' => '新規登録',
+    'need_account' => "アカウントをお持ちでないですか？",
+    'already_account' => 'すでにアカウントをお持ちですか？',
+    'login_link' => 'ログイン',
+    'register_link' => '新規登録',
+    
+    // Navigation
+    'dashboard' => '概要ダッシュボード',
+    'school_wise' => '学校別分析',
+    'area_wise' => '地域別分析',
+    'gender_caste' => '性別＆カースト',
+    'age_standard' => '年齢＆学年',
+    'policy_simulator' => '施策シミュレーター',
+    'logout' => 'ログアウト',
+    
+    // Dashboard Stats
+    'total_enrolled' => '総登録者数',
+    'total_dropouts' => '総中途退学者数',
+    'avg_dropout_rate' => '平均中途退学率',
+    'students_retained' => '維持された生徒数',
+    'active_schemes' => 'アクティブな施策',
+    'total_budget' => '総予算額',
+    'critical_schools' => '注意が必要な学校',
+    'recent_reports' => '最近の中途退学報告',
+    
+    // Status text
+    'active_students' => '学校のアクティブな生徒数',
+    'socio_economic' => '社会経済的な中途退学',
+    'state_target' => '州の目標: < 5.0%',
+    'via_interventions' => '有効な施策による効果',
+
+    // School-wise Sub-page
+    'school_wise_title' => '学校別中途退学分析',
+    'school_wise_subtitle' => '各学校における退学率、登録者数、脆弱性の比較表示。',
+    'school_comparison' => '中途退学率の比較 (%)',
+    'institutional_db' => '学校データベース',
+    'search_placeholder' => '学校名を検索...',
+    'all_types' => 'すべてのタイプ',
+    'all_areas' => 'すべてのエリア',
+    'tbl_school_name' => '学校名',
+    'tbl_type' => 'タイプ',
+    'tbl_area' => 'エリア',
+    'tbl_district' => '地区',
+    'tbl_students' => '生徒総数',
+    'tbl_dropouts' => '退学者数',
+    'tbl_rate' => '退学率',
+    'tbl_risk' => 'リスクレベル',
+
+    // Area-wise Sub-page
+    'area_wise_title' => '地域別中途退学分析',
+    'area_wise_subtitle' => '都市部と農村部の中途退学パターンの地理的分布、比較、および地域別指標の追跡。',
+    'regional_vulnerabilities' => '地域の脆弱性',
+    'urban_schools' => '都市部の学校',
+    'rural_schools' => '農村部の学校',
+    'district_leaderboard' => '地域別退学率ランキング',
+
+    // Demographics Sub-page
+    'demographic_title' => '人口統計学的中途退学分析',
+    'demographic_subtitle' => '性自認やカースト分類に基づく中途退学率と根本的な原因のクロスリファレンス。',
+    'gender_dynamics' => '性別による中途退学の動向',
+    'gender_factors' => '性別による主たる退学要因',
+    'caste_analytics' => '社会グループ・カースト分析',
+    'caste_rates' => '社会グループ別退学率',
+    'caste_distribution' => '社会グループ別中途退学原因の分布',
+
+    // Academic Sub-page
+    'academic_title' => '学術＆年齢別分析',
+    'academic_subtitle' => '主要な退学段階を特定するための、教育の節目と年齢別の傾向の分析。',
+    'class_trendline' => '学年別中途退学トレンド (小学1年から高校3年/Class 1-12)',
+    'age_distribution' => '年齢層別中途退学分布',
+    'transitional_shifts' => '教育段階における中途退学要因の変遷',
+
+    // Interventions Sub-page
+    'interventions_title' => '施策とシミュレーター',
+    'interventions_subtitle' => '中途退学率を低減するためのターゲットを絞ったソリューションの設計、テスト、展開。',
+    'policy_simulator_title' => '施策影響シミュレーター',
+    'policy_simulator_desc' => '生徒のサブセットと解決策のタイプを選択し、財務予算と予測される中途退学減少指標を算出します。',
+    'target_dimension' => '対象ディメンション',
+    'target_value_label' => '対象基準値',
+    'policy_type' => '施策介入タイプ',
+    'expected_reduction' => '期待される中途退学減少率',
+    'recalculate_btn' => 'モデルの再計算',
+    'report_dropout_title' => '中途退学の報告',
+    'report_dropout_desc' => 'リアルタイムの中途退学報告を送信し、データベース統合とChart.js更新を即時にテストします。',
+    'select_student' => 'アクティブな生徒を選択',
+    'primary_reason' => '主たる原因',
+    'file_report_btn' => '中途退学報告書を提出する',
+    'registry_title' => '有効な施策および介入レジストリ',
+    'sim_target_desc' => ':type = \':value\' のすべての生徒を対象にしています。',
+    'sim_cost_desc' => '費用: 生徒1人あたり年間 ₹:cost。',
+    'db_manager' => 'データベースマネージャー',
+    'db_diagnostics' => 'SQLite データベース診断',
+    'db_connection' => '接続状態',
+    'db_file_path' => 'データベースパス',
+    'db_file_size' => 'データベースファイルサイズ',
+    'db_stats' => 'テーブルレコード統計',
+    'tbl_users' => 'ユーザーアカウント数',
+    'tbl_schools' => '登録校数',
+    'tbl_students' => '登録生徒数',
+    'tbl_schemes' => '有効な施策数',
+    'add_school_btn' => '新しい学校を登録',
+    'add_student_btn' => '生徒を登録',
+    'school_db' => '学校レジストリ',
+    'student_db' => '生徒人口統計データベース'
+];

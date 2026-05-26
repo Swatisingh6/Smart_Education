@@ -1,0 +1,121 @@
+<?php
+
+return [
+    'title' => 'EduKeep - Intelligente Bildung & Schulabbruch-Analyse',
+    'welcome_title' => 'EduKeep Smart-Portal',
+    'login_subtitle' => 'Melden Sie sich an, um auf die Schulabbruch-Analyse und den Simulator zuzugreifen.',
+    'register_title' => 'Konto erstellen',
+    'register_subtitle' => 'Registrieren Sie sich, um Faktoren für den Schulabbruch zu analysieren.',
+    
+    // Auth Forms
+    'email_label' => 'E-Mail-Adresse',
+    'password_label' => 'Passwort',
+    'confirm_password_label' => 'Passwort bestätigen',
+    'name_label' => 'Vollständiger Name',
+    'remember_me' => 'Angemeldet bleiben',
+    'login_btn' => 'Einloggen',
+    'register_btn' => 'Registrieren',
+    'need_account' => "Haben Sie noch kein Konto?",
+    'already_account' => 'Haben Sie bereits ein Konto?',
+    'login_link' => 'Einloggen',
+    'register_link' => 'Registrieren',
+    
+    // Navigation
+    'dashboard' => 'Übersichts-Dashboard',
+    'school_wise' => 'Schulweise',
+    'area_wise' => 'Bereichsweise',
+    'gender_caste' => 'Geschlecht & Kaste',
+    'age_standard' => 'Alter & Klasse',
+    'policy_simulator' => 'Richtlinien-Simulator',
+    'logout' => 'Abmelden',
+    
+    // Dashboard Stats
+    'total_enrolled' => 'Eingeschrieben Gesamt',
+    'total_dropouts' => 'Abbrüche Gesamt',
+    'avg_dropout_rate' => 'Durchschn. Abbruchquote',
+    'students_retained' => 'Erhaltener Schülerbestand',
+    'active_schemes' => 'Aktive Programme',
+    'total_budget' => 'Gesamtbudget Richtlinie',
+    'critical_schools' => 'Kritische Schulen',
+    'recent_reports' => 'Neueste Abbruchberichte',
+    
+    // Status text
+    'active_students' => 'Aktive Schüler an Schulen',
+    'socio_economic' => 'Sozioökonomische Abbrüche',
+    'state_target' => 'Landesziel: < 5.0%',
+    'via_interventions' => 'Durch aktive Interventionen',
+
+    // School-wise Sub-page
+    'school_wise_title' => 'Schulbezogene Abbruch-Analyse',
+    'school_wise_subtitle' => 'Vergleichsansicht von Abbruchquoten, Einschreibezahlen und Schwachstellen an Schulen.',
+    'school_comparison' => 'Vergleich der Abbruchquoten (%)',
+    'institutional_db' => 'Institutionelle Datenbank',
+    'search_placeholder' => 'Schulname suchen...',
+    'all_types' => 'Alle Typen',
+    'all_areas' => 'Alle Gebiete',
+    'tbl_school_name' => 'Schulname',
+    'tbl_type' => 'Typ',
+    'tbl_area' => 'Gebiet',
+    'tbl_district' => 'Bezirk',
+    'tbl_students' => 'Schüler Gesamt',
+    'tbl_dropouts' => 'Abbrüche',
+    'tbl_rate' => 'Abbruchquote',
+    'tbl_risk' => 'Risikostufe',
+
+    // Area-wise Sub-page
+    'area_wise_title' => 'Bereichsbezogene Abbruch-Analyse',
+    'area_wise_subtitle' => 'Geografische Verteilung von Abbruchmustern, Vergleich von Stadt vs. Land und Verfolgung von Bezirksdaten.',
+    'regional_vulnerabilities' => 'Regionale Schwachstellen',
+    'urban_schools' => 'Städtische Schulen',
+    'rural_schools' => 'Ländliche Schulen',
+    'district_leaderboard' => 'Bezirk-Abbruch-Rangliste',
+
+    // Demographics Sub-page
+    'demographic_title' => 'Demografische Abbruch-Analyse',
+    'demographic_subtitle' => 'Abgleich von Abbruchquoten und zugrunde liegenden Ursachen mit Geschlechtsidentitäten und Kasteneinteilungen.',
+    'gender_dynamics' => 'Geschlechtsspezifische Abbruchdynamik',
+    'gender_factors' => 'Hauptabbruchfaktoren nach Geschlecht',
+    'caste_analytics' => 'Soziale Gruppen- / Kastenevaluierung',
+    'caste_rates' => 'Abbruchquoten nach Kastengruppen',
+    'caste_distribution' => 'Verteilung der Abbruchgründe über soziale Gruppen',
+
+    // Academic Sub-page
+    'academic_title' => 'Akademische & altersbezogene Analyse',
+    'academic_subtitle' => 'Analyse von Bildungsmeilensteinen und altersabhängigen Trends, um kritische Abbruchphasen zu isolieren.',
+    'class_trendline' => 'Klassenbezogener Abbruchtrend (Klasse 1 bis 12)',
+    'age_distribution' => 'Abbruchverteilung nach Altersgruppe',
+    'transitional_shifts' => 'Übergangsverschiebungen der Abbruchfaktoren',
+
+    // Interventions Sub-page
+    'interventions_title' => 'Richtlinien-Interventionen & Simulator',
+    'interventions_subtitle' => 'Entwerfen, testen und implementieren Sie gezielte Lösungen, um Abbruchquoten zu senken.',
+    'policy_simulator_title' => 'Richtlinien-Auswirkungssimulator',
+    'policy_simulator_desc' => 'Wählen Sie Schülergruppen und Lösungstypen aus, um Finanzbudgets und prognostizierte Abbruchreduzierungen zu berechnen.',
+    'target_dimension' => 'Ziel-Dimension',
+    'target_value_label' => 'Zielkriteriumswert',
+    'policy_type' => 'Interventionsart der Richtlinie',
+    'expected_reduction' => 'Erwartete Abbruchreduzierung',
+    'recalculate_btn' => 'Modell neu berechnen',
+    'report_dropout_title' => 'Schulabbruch melden',
+    'report_dropout_desc' => 'Senden Sie einen Echtzeit-Abbruchbericht, um Datenbank-Aggregations- und Diagramm-Updates sofort zu testen.',
+    'select_student' => 'Aktiven Schüler auswählen',
+    'primary_reason' => 'Hauptgrund',
+    'file_report_btn' => 'Abbruchbericht einreichen',
+    'registry_title' => 'Aktives Richtlinien- & Interventionsregister',
+    'sim_target_desc' => 'Ausrichtung auf alle Schüler mit :type = \':value\'.',
+    'sim_cost_desc' => 'Kosten: ₹:cost/Schüler pro Jahr.',
+    'db_manager' => 'Datenbank-Manager',
+    'db_diagnostics' => 'SQLite-Datenbankdiagnose',
+    'db_connection' => 'Verbindungsstatus',
+    'db_file_path' => 'Datenbankpfad',
+    'db_file_size' => 'Datenbankdateigröße',
+    'db_stats' => 'Tabellenstatistiken',
+    'tbl_users' => 'Benutzerkonten',
+    'tbl_schools' => 'Erfasste Schulen',
+    'tbl_students' => 'Registrierte Schüler',
+    'tbl_schemes' => 'Aktive Interventionen',
+    'add_school_btn' => 'Neue Schule registrieren',
+    'add_student_btn' => 'Schüler registrieren',
+    'school_db' => 'Institutionelles Register',
+    'student_db' => 'Demografische Schülerdatenbank'
+];

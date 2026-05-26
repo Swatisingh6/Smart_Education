@@ -1,0 +1,121 @@
+<?php
+
+return [
+    'title' => 'ఎడుకీప్ - స్మార్ట్ ఎడ్యుకేషన్ & డ్రాపౌట్ అనలిటిక్స్',
+    'welcome_title' => 'ఎడుకీప్ స్మార్ట్ పోర్టల్',
+    'login_subtitle' => 'విద్యార్థుల డ్రాపౌట్ విశ్లేషణ మరియు సిమ్యులేటర్ యాక్సెస్ చేయడానికి లాగిన్ చేయండి.',
+    'register_title' => 'ఖాతాను సృష్టించండి',
+    'register_subtitle' => 'డ్రాపౌట్ కారకాలను విశ్లేషించడం ప్రారంభించడానికి నమోదు చేసుకోండి.',
+    
+    // Auth Forms
+    'email_label' => 'ఈమెయిల్ చిరునామా',
+    'password_label' => 'పాస్‌వర్డ్',
+    'confirm_password_label' => 'పాస్‌వర్డ్‌ను ధృవీకరించండి',
+    'name_label' => 'పూర్తి పేరు',
+    'remember_me' => 'నన్ను గుర్తుంచుకో',
+    'login_btn' => 'లాగిన్ చేయండి',
+    'register_btn' => 'సైన్ అప్ చేయండి',
+    'need_account' => "ఖాతా లేదా?",
+    'already_account' => 'ఇప్పటికే ఖాతా ఉందా?',
+    'login_link' => 'లాగిన్ చేయండి',
+    'register_link' => 'సైన్ అప్ చేయండి',
+    
+    // Navigation
+    'dashboard' => 'డాష్‌బోర్డ్ అవలోకనం',
+    'school_wise' => 'పాఠశాల వారీగా',
+    'area_wise' => 'ప్రాంతం వారీగా',
+    'gender_caste' => 'లింగం & కులం',
+    'age_standard' => 'వయస్సు & తరగతి',
+    'policy_simulator' => 'విధాన సిమ్యులేటర్',
+    'logout' => 'లాగ్ అవుట్',
+    
+    // Dashboard Stats
+    'total_enrolled' => 'మొత్తం నమోదు',
+    'total_dropouts' => 'మొత్తం డ్రాపౌట్స్',
+    'avg_dropout_rate' => 'సగటు డ్రాపౌట్ రేటు',
+    'students_retained' => 'విద్యార్థులు నిలిపివేయబడ్డారు',
+    'active_schemes' => 'సక్రియ పథకాలు',
+    'total_budget' => 'మొత్తం విధాన బడ్జెట్',
+    'critical_schools' => 'కీలకమైన పాఠశాలలు',
+    'recent_reports' => 'ఇటీవలి డ్రాపౌట్ నివేదికలు',
+    
+    // Status text
+    'active_students' => 'పాఠశాలల్లో చురుకైన విద్యార్థులు',
+    'socio_economic' => 'సామాజిక-ఆర్థిక డ్రాపౌట్స్',
+    'state_target' => 'రాష్ట్ర లక్ష్యం: < 5.0%',
+    'via_interventions' => 'సక్రియ జోక్యాల ద్వారా',
+
+    // School-wise Sub-page
+    'school_wise_title' => 'పాఠశాలల వారీ డ్రాపౌట్ విశ్లేషణ',
+    'school_wise_subtitle' => 'పాఠశాలల్లో డ్రాపౌట్ రేట్లు, నమోదు గణాంకాలు మరియు బలహీనతల పోలిక.',
+    'school_comparison' => 'డ్రాపౌట్ రేట్ల పోలిక (%)',
+    'institutional_db' => 'సంస్థాగత డేటాబేస్',
+    'search_placeholder' => 'పాఠశాల పేరు శోధించండి...',
+    'all_types' => 'అన్ని రకాలు',
+    'all_areas' => 'అన్ని ప్రాంతాలు',
+    'tbl_school_name' => 'పాఠశాల పేరు',
+    'tbl_type' => 'రకం',
+    'tbl_area' => 'ప్రాంతం',
+    'tbl_district' => 'జిల్లా',
+    'tbl_students' => 'మొత్తం విద్యార్థులు',
+    'tbl_dropouts' => 'డ్రాపౌట్స్',
+    'tbl_rate' => 'డ్రాపౌట్ రేటు',
+    'tbl_risk' => 'ప్రమాద స్థాయి',
+
+    // Area-wise Sub-page
+    'area_wise_title' => 'ప్రాంతాల వారీ డ్రాపౌట్ విశ్లేషణ',
+    'area_wise_subtitle' => 'పట్టణ మరియు గ్రామీణ ప్రాంతాల మధ్య డ్రాపౌట్ పోలిక మరియు జిల్లా వారీ నివేదికలు.',
+    'regional_vulnerabilities' => 'ప్రాంతీయ బలహీనతలు',
+    'urban_schools' => 'పట్టణ పాఠశాలలు',
+    'rural_schools' => 'గ్రామీణ పాఠశాలలు',
+    'district_leaderboard' => 'జిల్లా డ్రాపౌట్ లీడర్‌బోర్డ్',
+
+    // Demographics Sub-page
+    'demographic_title' => 'జనాభా డ్రాపౌట్ విశ్లేషణ',
+    'demographic_subtitle' => 'లింగ గుర్తింపులు మరియు సామాజిక వర్గాల ఆధారంగా డ్రాపౌట్ విశ్లేషణ.',
+    'gender_dynamics' => 'లింగం వారీ డ్రాపౌట్ గతిశీలత',
+    'gender_factors' => 'లింగం ఆధారంగా డ్రాపౌట్ కారకాలు',
+    'caste_analytics' => 'సామాజిక సమూహం / కుల విశ్లేషణ',
+    'caste_rates' => 'కుల సమూహాల డ్రాపౌట్ రేట్లు',
+    'caste_distribution' => 'సామాజిక సమూహాలలో డ్రాపౌట్ కారణాల పంపిణీ',
+
+    // Academic Sub-page
+    'academic_title' => 'విద్యా & వయస్సు వారీ విశ్లేషణ',
+    'academic_subtitle' => 'డ్రాపౌట్ దశలను వేరు చేయడానికి విద్యా మైలురాళ్ళు మరియు వయస్సు ఆధారిత పోకడల విశ్లేషణ.',
+    'class_trendline' => 'తరగతి వారీ డ్రాపౌట్ ట్రెండ్‌లైన్ (తరగతి 1 నుండి 12)',
+    'age_distribution' => 'వయస్సు ఆధారంగా డ్రాపౌట్ పంపిణీ',
+    'transitional_shifts' => 'విద్యా దశలలో డ్రాపౌట్ కారకాల మార్పు',
+
+    // Interventions Sub-page
+    'interventions_title' => 'విధాన జోక్యాలు & సిమ్యులేటర్',
+    'interventions_subtitle' => 'డ్రాపౌట్ రేట్లను తగ్గించడానికి జోక్యాలను రూపొందించండి మరియు అమలు చేయండి.',
+    'policy_simulator_title' => 'విధాన ప్రభావ సిమ్యులేటర్',
+    'policy_simulator_desc' => 'బడ్జెట్ అంచనాలు మరియు ఆశించిన డ్రాపౌట్ తగ్గింపును లెక్కించడానికి విద్యార్థుల సమూహాలు మరియు విధానాలను ఎంచుకోండి.',
+    'target_dimension' => 'లక్ష్య పరిమాణం',
+    'target_value_label' => 'లక్ష్య ప్రమాణ విలువ',
+    'policy_type' => 'విధాన జోక్యం రకం',
+    'expected_reduction' => 'ఆశించిన డ్రాపౌట్ తగ్గింపు',
+    'recalculate_btn' => 'తిరిగి లెక్కించండి',
+    'report_dropout_title' => 'విద్యార్థి డ్రాపౌట్ నివేదించండి',
+    'report_dropout_desc' => 'నిజ-సమయ డేటాబేస్ నవీకరణలను పరీక్షించడానికి డ్రాపౌట్ నివేదికను సమర్పించండి.',
+    'select_student' => 'చురుకైన విద్యార్థిని ఎంచుకోండి',
+    'primary_reason' => 'ప్రాథమిక కారణం',
+    'file_report_btn' => 'నివేదిక దాఖలు చేయండి',
+    'registry_title' => 'సక్రియ విధానాల రిజిస్ట్రీ',
+    'sim_target_desc' => 'అన్ని :type = \':value\' విద్యార్థులను లక్ష్యంగా చేసుకుంది.',
+    'sim_cost_desc' => 'ఖర్చు: సంవత్సరానికి విద్యార్థికి ₹:cost.',
+    'db_manager' => 'డేటాబేస్ మేనేజర్',
+    'db_diagnostics' => 'SQLite డేటాబేస్ డయాగ్నస్టిక్స్',
+    'db_connection' => 'కనెక్షన్ స్థితి',
+    'db_file_path' => 'డేటాబేస్ ఫైల్ మార్గం',
+    'db_file_size' => 'ఫైల్ పరిమాణం',
+    'db_stats' => 'డేటాబేస్ గణాంకాలు',
+    'tbl_users' => 'వినియోగదారుల ఖాతాలు',
+    'tbl_schools' => 'పాఠశాలల సంఖ్య',
+    'tbl_students' => 'నమోదైన విద్యార్థులు',
+    'tbl_schemes' => 'సక్రియ పథకాలు',
+    'add_school_btn' => 'కొత్త పాఠశాలను చేర్చండి',
+    'add_student_btn' => 'విద్యార్థిని నమోదు చేయండి',
+    'school_db' => 'పాఠశాల రిజిస్ట్రీ',
+    'student_db' => 'విద్యార్థుల జనాభా డేటాబేస్'
+];

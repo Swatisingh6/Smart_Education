@@ -1,0 +1,121 @@
+<?php
+
+return [
+    'title' => 'ಎಡುಕೀಪ್ - ಸ್ಮಾರ್ಟ್ ಶಿಕ್ಷಣ ಮತ್ತು ಶಾಲಾ ಗೈರುಹಾಜರಿ ವಿಶ್ಲೇಷಣೆ',
+    'welcome_title' => 'ಎಡುಕೀಪ್ ಸ್ಮಾರ್ಟ್ ಪೋರ್ಟಲ್',
+    'login_subtitle' => 'ವಿದ್ಯಾರ್ಥಿಗಳ ಶಾಲಾ ಗೈರುಹಾಜರಿ ವಿಶ್ಲೇಷಣೆ ಮತ್ತು ಸಿಮ್ಯುಲೇಟರ್ ಪ್ರವೇಶಿಸಲು ಲಾಗ್ ಇನ್ ಮಾಡಿ.',
+    'register_title' => 'ಖಾತೆಯನ್ನು ರಚಿಸಿ',
+    'register_subtitle' => 'ಶಾಲಾ ಗೈರುಹಾಜರಿ ಅಂಶಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಲು ನೋಂದಾಯಿಸಿ.',
+    
+    // Auth Forms
+    'email_label' => 'ಇಮೇಲ್ ವಿಳಾಸ',
+    'password_label' => 'ಪಾಸ್ವರ್ಡ್',
+    'confirm_password_label' => 'ಪಾಸ್ವರ್ಡ್ ದೃಢೀಕರಿಸಿ',
+    'name_label' => 'ಪೂರ್ಣ ಹೆಸರು',
+    'remember_me' => 'ನನ್ನನ್ನು ನೆನಪಿನಲ್ಲಿಡು',
+    'login_btn' => 'ಲಾಗ್ ಇನ್ ಮಾಡಿ',
+    'register_btn' => 'ನೋಂದಾಯಿಸಿ',
+    'need_account' => "ಖಾತೆ ಇಲ್ಲವೇ?",
+    'already_account' => 'ಈಗಾಗಲೇ ಖಾತೆ ಇದೆಯೇ?',
+    'login_link' => 'ಲಾಗ್ ಇನ್ ಮಾಡಿ',
+    'register_link' => 'ನೋಂದಾಯಿಸಿ',
+    
+    // Navigation
+    'dashboard' => 'ನಿಯಂತ್ರಣ ಫಲಕ',
+    'school_wise' => 'ಶಾಲಾವಾರು',
+    'area_wise' => 'ಪ್ರದೇಶವಾರು',
+    'gender_caste' => 'ಲಿಂಗ ಮತ್ತು ಜಾತಿ',
+    'age_standard' => 'ವಯಸ್ಸು ಮತ್ತು ತರಗತಿ',
+    'policy_simulator' => 'ನೀತಿ ಸಿಮ್ಯುಲೇಟರ್',
+    'logout' => 'ಲಾಗ್ ಔಟ್',
+    
+    // Dashboard Stats
+    'total_enrolled' => 'ಒಟ್ಟು ದಾಖಲಾತಿ',
+    'total_dropouts' => 'ಒಟ್ಟು ಶಾಲಾ ಗೈರುಹಾಜರಿಗಳು',
+    'avg_dropout_rate' => 'ಸರಾಸರಿ ಗೈರುಹಾಜರಿ ದರ',
+    'students_retained' => 'ಉಳಿಸಿಕೊಂಡ ವಿದ್ಯಾರ್ಥಿಗಳು',
+    'active_schemes' => 'ಸಕ್ರಿಯ ಯೋಜನೆಗಳು',
+    'total_budget' => 'ಒಟ್ಟು ನೀತಿ ಬಜೆಟ್',
+    'critical_schools' => 'ನಿರ್ಣಾಯಕ ಶಾಲೆಗಳು',
+    'recent_reports' => 'ಇತ್ತೀಚಿನ ಗೈರುಹಾಜರಿ ವರದಿಗಳು',
+    
+    // Status text
+    'active_students' => 'ಶಾಲೆಗಳಲ್ಲಿ ಸಕ್ರಿಯ ವಿದ್ಯಾರ್ಥಿಗಳು',
+    'socio_economic' => 'ಸಾಮಾಜಿಕ-ಆರ್ಥಿಕ ಗೈರುಹಾಜರಿಗಳು',
+    'state_target' => 'ರಾಜ್ಯದ ಗುರಿ: < 5.0%',
+    'via_interventions' => 'ಸಕ್ರಿಯ ಮಧ್ಯಸ್ಥಿಕೆಗಳ ಮೂಲಕ',
+
+    // School-wise Sub-page
+    'school_wise_title' => 'ಶಾಲಾವಾರು ಶಾಲಾ ಗೈರುಹಾಜರಿ ವಿಶ್ಲೇಷಣೆ',
+    'school_wise_subtitle' => 'ಶಾಲೆಗಳಲ್ಲಿ ಗೈರುಹಾಜರಿ ದರಗಳು, ದಾಖಲಾತಿ ಅಂಕಿಅಂಶಗಳು ಮತ್ತು ದುರ್ಬಲತೆಗಳ ಹೋಲಿಕೆ.',
+    'school_comparison' => 'ಗೈರುಹಾಜರಿ ದರಗಳ ಹೋಲಿಕೆ (%)',
+    'institutional_db' => 'ಸಂಸ್ಥಾಗತ ಡೇಟಾಬೇಸ್',
+    'search_placeholder' => 'ಶಾಲೆಯ ಹೆಸರನ್ನು ಹುಡುಕಿ...',
+    'all_types' => 'ಎಲ್ಲಾ ಪ್ರಕಾರಗಳು',
+    'all_areas' => 'ಎಲ್ಲಾ ಪ್ರದೇಶಗಳು',
+    'tbl_school_name' => 'ಶಾಲೆಯ ಹೆಸರು',
+    'tbl_type' => 'ಪ್ರಕಾರ',
+    'tbl_area' => 'ಪ್ರದೇಶ',
+    'tbl_district' => 'ಜಿಲ್ಲೆ',
+    'tbl_students' => 'ಒಟ್ಟು ವಿದ್ಯಾರ್ಥಿಗಳು',
+    'tbl_dropouts' => 'ಶಾಲಾ ಗೈರುಹಾಜರಿಗಳು',
+    'tbl_rate' => 'ಗೈರುಹಾಜರಿ ದರ',
+    'tbl_risk' => 'ಅಪಾಯದ ಮಟ್ಟ',
+
+    // Area-wise Sub-page
+    'area_wise_title' => 'ಪ್ರದೇಶವಾರು ಶಾಲಾ ಗೈರುಹಾಜರಿ ವಿಶ್ಲೇಷಣೆ',
+    'area_wise_subtitle' => 'ನಗರ ಮತ್ತು ಗ್ರಾಮೀಣ ಶಾಲಾ ಗೈರುಹಾజರಿ ಹೋಲಿಕೆ ಮತ್ತು ಜಿಲ್ಲಾವಾರು ವರದಿಗಳು.',
+    'regional_vulnerabilities' => 'ಪ್ರಾದೇಶಿಕ ದುರ್ಬಲತೆಗಳು',
+    'urban_schools' => 'ನಗರ ಶಾಲೆಗಳು',
+    'rural_schools' => 'ಗ್ರಾಮೀಣ ಶಾಲೆಗಳು',
+    'district_leaderboard' => 'ಜಿಲ್ಲಾ ಗೈರುಹಾಜರಿ ಶ್ರೇಯಾಂಕ',
+
+    // Demographics Sub-page
+    'demographic_title' => 'ಜನಸಂಖ್ಯಾ ಶಾಲಾ ಗೈರುಹಾಜರಿ ವಿಶ್ಲೇಷಣೆ',
+    'demographic_subtitle' => 'ಲಿಂಗ ಗುರುತುಗಳು ಮತ್ತು ಸಾಮಾಜಿಕ ವರ್ಗಗಳ ಆಧಾರದ ಮೇಲೆ ಗೈರುಹಾಜರಿ ವಿಶ್ಲೇಷಣೆ.',
+    'gender_dynamics' => 'ಲಿಂಗವಾರು ಶಾಲಾ ಗೈರುಹಾಜರಿ ಪ್ರವೃತ್ತಿ',
+    'gender_factors' => 'ಲಿಂಗ ಆಧಾರಿತ ಗೈರುಹಾಜರಿ ಅಂಶಗಳು',
+    'caste_analytics' => 'ಸಾಮಾಜಿಕ ಗುಂಪು / ಜಾತಿ ವಿಶ್ಲೇಷಣೆ',
+    'caste_rates' => 'ಸಾಮಾಜಿಕ ಗುಂಪುಗಳ ಗೈರುಹಾಜರಿ ದರಗಳು',
+    'caste_distribution' => 'ಸಾಮಾಜಿಕ ಗುಂಪುಗಳಲ್ಲಿ ಗೈರುಹಾಜರಿ ಕಾರಣಗಳ ವಿತರಣೆ',
+
+    // Academic Sub-page
+    'academic_title' => 'ಶಿಕ್ಷಣ ಮತ್ತು ವಯಸ್ಸುವಾರು ವಿಶ್ಲೇಷಣೆ',
+    'academic_subtitle' => 'ಶಾಲಾ ಗೈರುಹಾಜರಿ ಹಂತಗಳನ್ನು ಪ್ರತ್ಯೇಕಿಸಲು ಶೈಕ್ಷಣಿಕ ಮೈಲಿಗಲ್ಲುಗಳು ಮತ್ತು ವಯಸ್ಸು ಆಧಾರಿತ ಪ್ರವೃತ್ತಿಗಳ ವಿಶ್ಲೇಷಣೆ.',
+    'class_trendline' => 'ತರಗತಿವಾರು ಶಾಲಾ ಗೈರುಹಾಜರಿ ಪ್ರವೃತ್ತಿ (ತರಗತಿ 1 ರಿಂದ 12)',
+    'age_distribution' => 'ವಯಸ್ಸಿನ ಆಧಾರದ ಮೇಲೆ ಶಾಲಾ ಗೈರುಹಾಜರಿ ವಿತರಣೆ',
+    'transitional_shifts' => 'ಶೈಕ್ಷಣಿಕ ಹಂತಗಳಲ್ಲಿ ಶಾಲಾ ಗೈರುಹಾಜರಿ ಅಂಶಗಳ ಬದಲಾವಣೆ',
+
+    // Interventions Sub-page
+    'interventions_title' => 'ನೀತಿ ಮಧ್ಯಸ್ಥಿಕೆಗಳು ಮತ್ತು ಸಿಮ್ಯುಲೇಟರ್',
+    'interventions_subtitle' => 'ಗೈರುಹಾಜರಿ ದರಗಳನ್ನು ಕಡಿಮೆ ಮಾಡಲು ಯೋಜನೆಗಳನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಿ ಮತ್ತು ಜಾರಿಗೆ ತರಲು.',
+    'policy_simulator_title' => 'ನೀತಿ ಪ್ರಭಾವದ ಸಿಮ್ಯುಲೇಟರ್',
+    'policy_simulator_desc' => 'ಬಜೆಟ್ ಅಂದಾಜುಗಳು ಮತ್ತು ಶಾಲಾ ಗೈರುಹಾಜರಿ ಕಡಿತವನ್ನು ಲೆಕ್ಕಹಾಕಲು ವಿದ್ಯಾರ್ಥಿ ಗುಂಪುಗಳು ಮತ್ತು ನೀತಿಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ.',
+    'target_dimension' => 'ಗುರಿ ಗಾತ್ರ',
+    'target_value_label' => 'ಗುರಿ ಮಾನದಂಡದ ಮೌಲ್ಯ',
+    'policy_type' => 'ನೀತಿಯ ಪ್ರಕಾರ',
+    'expected_reduction' => 'ನಿರೀಕ್ಷಿತ ಗೈರುಹಾಜರಿ ಕಡಿತ',
+    'recalculate_btn' => 'ಮರುಸಮೀಕ್ಷೆ ಮಾಡಿ',
+    'report_dropout_title' => 'ಶಾಲಾ ಗೈರುಹಾಜರಿಯನ್ನು ವರದಿ ಮಾಡಿ',
+    'report_dropout_desc' => 'ನೈಜ-ಸಮಯದ ಡೇಟಾಬೇಸ್ ನವೀಕರಣಗಳನ್ನು ಪರೀಕ್ಷಿಸಲು ಶಾಲಾ ಗೈರುಹಾಜರಿ ವರದಿಯನ್ನು ಸಲ್ಲಿಸಿ.',
+    'select_student' => 'ಸಕ್ರಿಯ ವಿದ್ಯಾರ್ಥಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ',
+    'primary_reason' => 'ಪ್ರಾಥಮಿಕ ಕಾರಣ',
+    'file_report_btn' => 'ವರದಿಯನ್ನು ಸಲ್ಲಿಸಿ',
+    'registry_title' => 'ಸಕ್ರಿಯ ನೀತಿಗಳ ಪಟ್ಟಿ',
+    'sim_target_desc' => 'ಎಲ್ಲಾ :type = \':value\' ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ಗುರಿಯಾಗಿಸಿಕೊಂಡಿದೆ.',
+    'sim_cost_desc' => 'ವೆಚ್ಚ: ಪ್ರತಿ ವಿದ್ಯಾರ್ಥಿಗೆ ವರ್ಷಕ್ಕೆ ₹:cost.',
+    'db_manager' => 'ಡೇಟಾಬೇಸ್ ಮ್ಯಾನೇಜರ್',
+    'db_diagnostics' => 'SQLite ಡೇಟಾಬೇಸ್ ರೋಗನಿರ್ಣಯ',
+    'db_connection' => 'ಸಂಪರ್ಕದ ಸ್ಥಿತಿ',
+    'db_file_path' => 'ಡೇಟಾಬೇಸ್ ಫೈಲ್ ಮಾರ್ಗ',
+    'db_file_size' => 'ಫೈಲ್ ಗಾತ್ರ',
+    'db_stats' => 'ಡೇಟಾಬೇಸ್ ಅಂಕಿಅಂಶಗಳು',
+    'tbl_users' => 'ಬಳಕೆದಾರರ ಖಾತೆಗಳು',
+    'tbl_schools' => 'ಶಾಲೆಗಳ ಸಂಖ್ಯೆ',
+    'tbl_students' => 'ನೋಂದಾಯಿತ ವಿದ್ಯಾರ್ಥಿಗಳು',
+    'tbl_schemes' => 'ಸಕ್ರಿಯ ನೀತಿಗಳು',
+    'add_school_btn' => 'ಹೊಸ ಶಾಲೆಯನ್ನು ಸೇರಿಸಿ',
+    'add_student_btn' => 'ವಿದ್ಯಾರ್ಥಿಯನ್ನು ನೋಂದಾಯಿಸಿ',
+    'school_db' => 'ಶಾಲಾ ನೋಂದಣಿ',
+    'student_db' => 'ವಿದ್ಯಾರ್ಥಿ ಅಂಕಿಅಂಶ ಡೇಟಾಬೇಸ್'
+];

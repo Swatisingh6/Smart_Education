@@ -1,0 +1,121 @@
+<?php
+
+return [
+    'title' => 'এডুকিপ - স্মার্ট শিক্ষা এবং স্কুল ড্রপআউট বিশ্লেষণ',
+    'welcome_title' => 'এডুকিপ স্মার্ট পোর্টাল',
+    'login_subtitle' => 'শিক্ষার্থীদের স্কুল ড্রপআউট বিশ্লেষণ এবং সিমুলেটর অ্যাক্সেস করতে লগ ইন করুন।',
+    'register_title' => 'অ্যাকাউন্ট তৈরি করুন',
+    'register_subtitle' => 'ড্রপআউট কারণগুলি বিশ্লেষণ করতে নিবন্ধন করুন।',
+    
+    // Auth Forms
+    'email_label' => 'ইমেল ঠিকানা',
+    'password_label' => 'পাসওয়ার্ড',
+    'confirm_password_label' => 'পাসওয়ার্ড নিশ্চিত করুন',
+    'name_label' => 'পূর্ণ নাম',
+    'remember_me' => 'আমাকে মনে রাখুন',
+    'login_btn' => 'লগ ইন করুন',
+    'register_btn' => 'নিবন্ধন করুন',
+    'need_account' => "অ্যাকাউন্ট নেই?",
+    'already_account' => 'ইতিমধ্যে অ্যাকাউন্ট আছে?',
+    'login_link' => 'লগ ইন করুন',
+    'register_link' => 'নিবন্ধন করুন',
+    
+    // Navigation
+    'dashboard' => 'নিয়ন্ত্রণ কক্ষ',
+    'school_wise' => 'বিদ্যালয়ভিত্তিক',
+    'area_wise' => 'এলাকাভিত্তিক',
+    'gender_caste' => 'লিঙ্গ ও জাতি',
+    'age_standard' => 'বয়স ও শ্রেণী',
+    'policy_simulator' => 'নীতি সিমুলেটর',
+    'logout' => 'লগ আউট',
+    
+    // Dashboard Stats
+    'total_enrolled' => 'মোট ভর্তি',
+    'total_dropouts' => 'মোট ড্রপআউট',
+    'avg_dropout_rate' => 'গড় ড্রপআউট হার',
+    'students_retained' => 'ধরে রাখা শিক্ষার্থী',
+    'active_schemes' => 'সক্রিয় স্কিম',
+    'total_budget' => 'মোট নীতি বাজেট',
+    'critical_schools' => 'ঝুঁকিপূর্ণ বিদ্যালয়',
+    'recent_reports' => 'সাম্প্রতিক ড্রপআউট রিপোর্ট',
+    
+    // Status text
+    'active_students' => 'বিদ্যালয়ে সক্রিয় শিক্ষার্থী',
+    'socio_economic' => 'সামাজিক-অর্থনৈতিক ড্রপআউট',
+    'state_target' => 'রাষ্ট্রীয় লক্ষ্য: < ৫.০%',
+    'via_interventions' => 'সক্রিয় হস্তক্ষেপের মাধ্যমে',
+
+    // School-wise Sub-page
+    'school_wise_title' => 'বিদ্যালয়ভিত্তিক ড্রপআউট বিশ্লেষণ',
+    'school_wise_subtitle' => 'বিদ্যালয়গুলিতে ড্রপআউট হার, ভর্তি পরিসংখ্যান এবং ঝুঁকির তুলনামূলক চিত্র।',
+    'school_comparison' => 'ড্রপআউট হারের তুলনা (%)',
+    'institutional_db' => 'প্রাতিষ্ঠানিক ডেটাবেস',
+    'search_placeholder' => 'বিদ্যালয়ের নাম খুঁজুন...',
+    'all_types' => 'সব প্রকার',
+    'all_areas' => 'সব এলাকা',
+    'tbl_school_name' => 'বিদ্যালয়ের নাম',
+    'tbl_type' => 'ধরণ',
+    'tbl_area' => 'এলাকা',
+    'tbl_district' => 'জেলা',
+    'tbl_students' => 'মোট শিক্ষার্থী',
+    'tbl_dropouts' => 'ড্রপআউট',
+    'tbl_rate' => 'ড্রপআউট হার',
+    'tbl_risk' => 'ঝুঁকির মাত্রা',
+
+    // Area-wise Sub-page
+    'area_wise_title' => 'এলাকাভিত্তিক ড্রপআউট বিশ্লেষণ',
+    'area_wise_subtitle' => 'শহুরে এবং গ্রামীণ ড্রপআউট তুলনা এবং জেলাভিত্তিক রিপোর্ট।',
+    'regional_vulnerabilities' => 'আঞ্চলিক দুর্বলতা',
+    'urban_schools' => 'শহুরে বিদ্যালয়',
+    'rural_schools' => 'গ্রামীণ বিদ্যালয়',
+    'district_leaderboard' => 'জেলা ড্রপআউট র্যাঙ্কিং',
+
+    // Demographics Sub-page
+    'demographic_title' => 'জনমিতিক ড্রপআউট বিশ্লেষণ',
+    'demographic_subtitle' => 'লিঙ্গ পরিচয় এবং সামাজিক শ্রেণীর ভিত্তিতে ড্রপআউট বিশ্লেষণ।',
+    'gender_dynamics' => 'লিঙ্গভিত্তিক ড্রপআউট প্রবণতা',
+    'gender_factors' => 'লিঙ্গ ভিত্তিক ড্রপআউটের মূল কারণ',
+    'caste_analytics' => 'সামাজিক গোষ্ঠী / জাতি বিশ্লেষণ',
+    'caste_rates' => 'সামাজিক গোষ্ঠীর ড্রপআউট হার',
+    'caste_distribution' => 'সামাজিক গোষ্ঠীগুলিতে ড্রপআউটের কারণগুলির বন্টন',
+
+    // Academic Sub-page
+    'academic_title' => 'শিক্ষা ও বয়স ভিত্তিক বিশ্লেষণ',
+    'academic_subtitle' => 'ড্রপআউট পর্যায়গুলি চিহ্নিত করতে শিক্ষাগত মাইলফলক এবং বয়স ভিত্তিক প্রবণতার বিশ্লেষণ।',
+    'class_trendline' => 'শ্রেণীভিত্তিক ড্রপআউট প্রবণতা (শ্রেণী ১ থেকে ১২)',
+    'age_distribution' => 'বয়স ভিত্তিক ড্রপআউট বন্টন',
+    'transitional_shifts' => 'শিক্ষাগত পর্যায়গুলিতে ড্রপআউট কারণগুলির পরিবর্তন',
+
+    // Interventions Sub-page
+    'interventions_title' => 'নীতি হস্তক্ষেপ ও সিমুলেটর',
+    'interventions_subtitle' => 'ড্রপআউট হার কমাতে পরিকল্পনা তৈরি এবং প্রয়োগ করুন।',
+    'policy_simulator_title' => 'নীতি প্রভাব সিমুলেটর',
+    'policy_simulator_desc' => 'বাজেট অনুমান এবং ড্রপআউট হ্রাস গণনা করতে শিক্ষার্থী গোষ্ঠী এবং নীতি নির্বাচন করুন।',
+    'target_dimension' => 'লক্ষ্য মাত্রা',
+    'target_value_label' => 'লক্ষ্য মান মানদণ্ড',
+    'policy_type' => 'নীতির ধরণ',
+    'expected_reduction' => 'প্রত্যাশিত ড্রপআউট হ্রাস',
+    'recalculate_btn' => 'পুনরায় গণনা করুন',
+    'report_dropout_title' => 'ড্রপআউট রিপোর্ট করুন',
+    'report_dropout_desc' => 'রিয়েল-টাইম ডেটাবেস আপডেট পরীক্ষা করতে ড্রপআউট রিপোর্ট জমা দিন।',
+    'select_student' => 'সক্রিয় শিক্ষার্থী নির্বাচন করুন',
+    'primary_reason' => 'প্রধান কারণ',
+    'file_report_btn' => 'রিপোর্ট জমা দিন',
+    'registry_title' => 'সক্রিয় নীতিগুলির তালিকা',
+    'sim_target_desc' => 'সকল :type = \':value\' শিক্ষার্থীদের লক্ষ্য করা হয়েছে।',
+    'sim_cost_desc' => 'ব্যয়: বছরে প্রতি শিক্ষার্থীর জন্য ₹:cost।',
+    'db_manager' => 'ডেটাবেস ম্যানেজার',
+    'db_diagnostics' => 'SQLite ডেটাবেস ডায়াগনস্টিকস',
+    'db_connection' => 'সংযোগের অবস্থা',
+    'db_file_path' => 'ডেটাবেস ফাইল পাথ',
+    'db_file_size' => 'ফাইল সাইজ',
+    'db_stats' => 'ডেটাবেস পরিসংখ্যান',
+    'tbl_users' => 'ব্যবহারকারী অ্যাকাউন্ট',
+    'tbl_schools' => 'বিদ্যালয়ের সংখ্যা',
+    'tbl_students' => 'নিবন্ধিত শিক্ষার্থী',
+    'tbl_schemes' => 'সক্রিয় নীতিসমূহ',
+    'add_school_btn' => 'নতুন বিদ্যালয় যোগ করুন',
+    'add_student_btn' => 'শিক্ষার্থী নিবন্ধন করুন',
+    'school_db' => 'বিদ্যালয় রেজিস্ট্রি',
+    'student_db' => 'শিক্ষার্থী জনমিতিক ডেটাবেস'
+];

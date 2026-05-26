@@ -1,0 +1,121 @@
+<?php
+
+return [
+    'title' => 'एडुकीप - स्मार्ट शिक्षण आणि शाळा गळती विश्लेषण',
+    'welcome_title' => 'एडुकीप स्मार्ट पोर्टल',
+    'login_subtitle' => 'विद्यार्थ्यांच्या शाळा गळती विश्लेषणासाठी आणि सिम्युलेटरमध्ये प्रवेश करण्यासाठी लॉग इन करा.',
+    'register_title' => 'खाते तयार करा',
+    'register_subtitle' => 'गळतीचे घटक विश्लेषित करण्यासाठी नोंदणी करा.',
+    
+    // Auth Forms
+    'email_label' => 'ईमेल पत्ता',
+    'password_label' => 'पासवर्ड',
+    'confirm_password_label' => 'पासवर्डची पुष्टी करा',
+    'name_label' => 'पूर्ण नाव',
+    'remember_me' => 'माझी आठवण ठेवा',
+    'login_btn' => 'लॉग इन करा',
+    'register_btn' => 'नोंदणी करा',
+    'need_account' => "खाते नाही का?",
+    'already_account' => 'आधीच खाते आहे का?',
+    'login_link' => 'लॉग इन करा',
+    'register_link' => 'नोंदणी करा',
+    
+    // Navigation
+    'dashboard' => 'नियंत्रण कक्ष',
+    'school_wise' => 'शाळावार',
+    'area_wise' => 'क्षेत्रवार',
+    'gender_caste' => 'लिंग आणि जात',
+    'age_standard' => 'वय आणि इयत्ता',
+    'policy_simulator' => 'धोरण सिम्युलेटर',
+    'logout' => 'लॉग आउट',
+    
+    // Dashboard Stats
+    'total_enrolled' => 'एकूण नोंदणी',
+    'total_dropouts' => 'एकूण शाळा गळती',
+    'avg_dropout_rate' => 'सरासरी गळती दर',
+    'students_retained' => 'राखून ठेवलेले विद्यार्थी',
+    'active_schemes' => 'सक्रिय योजना',
+    'total_budget' => 'एकूण धोरण बजेट',
+    'critical_schools' => 'गंभीर शाळा',
+    'recent_reports' => 'अलीकडील गळती अहवाल',
+    
+    // Status text
+    'active_students' => 'शाळांमधील सक्रिय विद्यार्थी',
+    'socio_economic' => 'सामाजिक-आर्थिक गळती',
+    'state_target' => 'राज्य लक्ष्य: < 5.0%',
+    'via_interventions' => 'सक्रिय धोरणांद्वारे',
+
+    // School-wise Sub-page
+    'school_wise_title' => 'शाळावार शाळा गळती विश्लेषण',
+    'school_wise_subtitle' => 'शाळांमधील गळतीचे दर, नोंदणी आकडेवारी आणि संवेदनशीलतेची तुलना.',
+    'school_comparison' => 'शाळा गळती दरांची तुलना (%)',
+    'institutional_db' => 'संस्थात्मक डेटाबेस',
+    'search_placeholder' => 'शाळेचे नाव शोधा...',
+    'all_types' => 'सर्व प्रकार',
+    'all_areas' => 'सर्व क्षेत्र',
+    'tbl_school_name' => 'शाळेचे नाव',
+    'tbl_type' => 'प्रकार',
+    'tbl_area' => 'क्षेत्र',
+    'tbl_district' => 'जिल्हा',
+    'tbl_students' => 'एकूण विद्यार्थी',
+    'tbl_dropouts' => 'शाळा गळती संख्या',
+    'tbl_rate' => 'गळती दर',
+    'tbl_risk' => 'जोखीम पातळी',
+
+    // Area-wise Sub-page
+    'area_wise_title' => 'क्षेत्रवार शाळा गळती विश्लेषण',
+    'area_wise_subtitle' => 'शहरी आणि ग्रामीण शाळा गळतीची तुलना आणि जिल्हावार अहवाल.',
+    'regional_vulnerabilities' => 'प्रादेशिक संवेदनशीलता',
+    'urban_schools' => 'शहरी शाळा',
+    'rural_schools' => 'ग्रामीण शाळा',
+    'district_leaderboard' => 'जिल्हा गळती क्रमवारी',
+
+    // Demographics Sub-page
+    'demographic_title' => 'लोकसंख्याशास्त्रीय शाळा गळती विश्लेषण',
+    'demographic_subtitle' => 'लिंग ओळख आणि सामाजिक वर्गाच्या आधारे शाळा गळतीचे विश्लेषण.',
+    'gender_dynamics' => 'लिंगानुसार शाळा गळती कल',
+    'gender_factors' => 'लिंग आधारित गळतीचे मुख्य घटक',
+    'caste_analytics' => 'सामाजिक गट / जात विश्लेषण',
+    'caste_rates' => 'सामाजिक गटांचे गळती दर',
+    'caste_distribution' => 'सामाजिक गटांमध्ये गळतीच्या कारणांचे वितरण',
+
+    // Academic Sub-page
+    'academic_title' => 'शिक्षण आणि वयानुसार विश्लेषण',
+    'academic_subtitle' => 'शाळा गळतीचे टप्पे वेगळे करण्यासाठी शैक्षणिक टप्पे आणि वयावर आधारित विश्लेषणाचे प्रवाह.',
+    'class_trendline' => 'इयत्तेनुसार शाळा गळती कल (इयत्ता १ ते १२)',
+    'age_distribution' => 'वयानुसार शाळा गळतीचे वितरण',
+    'transitional_shifts' => 'शैक्षणिक टप्प्यांमध्ये गळतीच्या कारणांमधील बदल',
+
+    // Interventions Sub-page
+    'interventions_title' => 'धोरणात्मक हस्तक्षेप आणि सिम्युलेटर',
+    'interventions_subtitle' => 'गळती दर कमी करण्यासाठी योजना डिझाइन आणि तैनात करा.',
+    'policy_simulator_title' => 'धोरण प्रभाव सिम्युलेटर',
+    'policy_simulator_desc' => 'बजेट अंदाज आणि शाळा गळती कपात मोजण्यासाठी विद्यार्थी गट आणि धोरणे निवडा.',
+    'target_dimension' => 'लक्ष्य श्रेणी',
+    'target_value_label' => 'लक्ष्य निकष मूल्य',
+    'policy_type' => 'धोरणाचा प्रकार',
+    'expected_reduction' => 'अपेक्षित गळती कपात',
+    'recalculate_btn' => 'पुन्हा मोजा',
+    'report_dropout_title' => 'शाळा गळतीची नोंद करा',
+    'report_dropout_desc' => 'रिअल-टाइम डेटाबेस अद्यतने तपासण्यासाठी शाळा गळती अहवाल सबमिट करा.',
+    'select_student' => 'सक्रिय विद्यार्थी निवडा',
+    'primary_reason' => 'प्राथमिक कारण',
+    'file_report_btn' => 'अहवाल सादर करा',
+    'registry_title' => 'सक्रिय धोरणांची यादी',
+    'sim_target_desc' => 'सर्व :type = \':value\' विद्यार्थ्यांना लक्ष्य केले आहे.',
+    'sim_cost_desc' => 'खर्च: प्रति विद्यार्थी वर्षाला ₹:cost.',
+    'db_manager' => 'डेटाबेस व्यवस्थापक',
+    'db_diagnostics' => 'SQLite डेटाबेस निदान आणि स्थिती',
+    'db_connection' => 'कनेक्शन स्थिती',
+    'db_file_path' => 'डेटाबेस फाईल मार्ग',
+    'db_file_size' => 'फाईल आकार',
+    'db_stats' => 'डेटाबेस आकडेवारी',
+    'tbl_users' => 'वापरकर्ता खाती',
+    'tbl_schools' => 'शाळांची संख्या',
+    'tbl_students' => 'नोंदणीकृत विद्यार्थी',
+    'tbl_schemes' => 'सक्रिय धोरणे',
+    'add_school_btn' => 'नवीन शाळा जोडा',
+    'add_student_btn' => 'विद्यार्थ्याची नोंदणी करा',
+    'school_db' => 'शाळा नोंदणी',
+    'student_db' => 'विद्यार्थी लोकसंख्या डेटाबेस'
+];

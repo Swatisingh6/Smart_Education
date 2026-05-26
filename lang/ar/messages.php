@@ -1,0 +1,121 @@
+<?php
+
+return [
+    'title' => 'EduKeep - التعليم الذكي وتحليل التسرب المدرسي',
+    'welcome_title' => 'بوابة EduKeep الذكية',
+    'login_subtitle' => 'سجل الدخول للوصول إلى تحليلات ومحاكاة التسرب من المدارس.',
+    'register_title' => 'إنشاء حساب',
+    'register_subtitle' => 'سجل للبدء في تحليل عوامل التسرب للطلاب.',
+    
+    // Auth Forms
+    'email_label' => 'البريد الإلكتروني',
+    'password_label' => 'كلمة المرور',
+    'confirm_password_label' => 'تأكيد كلمة المرور',
+    'name_label' => 'الاسم الكامل',
+    'remember_me' => 'تذكرني',
+    'login_btn' => 'تسجيل الدخول',
+    'register_btn' => 'إنشاء الحساب',
+    'need_account' => "ليس لديك حساب؟",
+    'already_account' => 'لديك حساب بالفعل؟',
+    'login_link' => 'تسجيل الدخول',
+    'register_link' => 'إنشاء الحساب',
+    
+    // Navigation
+    'dashboard' => 'لوحة المراقبة العامة',
+    'school_wise' => 'التحليل المدرسي',
+    'area_wise' => 'التحليل الجغرافي',
+    'gender_caste' => 'الجنس والفئة الاجتماعية',
+    'age_standard' => 'العمر والصف الدراسي',
+    'policy_simulator' => 'محاكي السياسات',
+    'logout' => 'تسجيل الخروج',
+    
+    // Dashboard Stats
+    'total_enrolled' => 'إجمالي المسجلين',
+    'total_dropouts' => 'إجمالي المتسربين',
+    'avg_dropout_rate' => 'متوسط معدل التسرب',
+    'students_retained' => 'الطلاب الذين تم الحفاظ عليهم',
+    'active_schemes' => 'الخطط النشطة',
+    'total_budget' => 'الميزانية الإجمالية المخصصة',
+    'critical_schools' => 'المدارس الحرجة',
+    'recent_reports' => 'تقارير التسرب الأخيرة',
+    
+    // Status text
+    'active_students' => 'الطلاب النشطون في المدارس',
+    'socio_economic' => 'تسرب لأسباب اجتماعية واقتصادية',
+    'state_target' => 'الهدف الوطني: < 5.0%',
+    'via_interventions' => 'عبر التدخلات والسياسات النشطة',
+
+    // School-wise Sub-page
+    'school_wise_title' => 'تحليل التسرب المدرسي حسب المدرسة',
+    'school_wise_subtitle' => 'عرض مقارن لمعدلات التسرب، وأرقام التسجيل، والهشاشة عبر المدارس المختلفة.',
+    'school_comparison' => 'مقارنة معدلات التسرب (%)',
+    'institutional_db' => 'قاعدة البيانات المؤسسية',
+    'search_placeholder' => 'البحث باسم المدرسة...',
+    'all_types' => 'جميع الأنواع',
+    'all_areas' => 'جميع المناطق',
+    'tbl_school_name' => 'اسم المدرسة',
+    'tbl_type' => 'النوع',
+    'tbl_area' => 'المنطقة',
+    'tbl_district' => 'المحافظة',
+    'tbl_students' => 'إجمالي الطلاب',
+    'tbl_dropouts' => 'عدد المتسربين',
+    'tbl_rate' => 'معدل التسرب',
+    'tbl_risk' => 'مستوى الخطورة',
+
+    // Area-wise Sub-page
+    'area_wise_title' => 'تحليل التسرب المدرسي حسب المنطقة',
+    'area_wise_subtitle' => 'التوزيع الجغرافي لأنماط التسرب، مقارنة المناطق الحضرية مقابل الريفية ومتابعة مؤشرات المحافظات.',
+    'regional_vulnerabilities' => 'مواطن الهشاشة الإقليمية',
+    'urban_schools' => 'مدارس المناطق الحضرية',
+    'rural_schools' => 'مدارس المناطق الريفية',
+    'district_leaderboard' => 'لوحة الصدارة الإقليمية للتسرب',
+
+    // Demographics Sub-page
+    'demographic_title' => 'التحليل الديموغرافي للتسرب',
+    'demographic_subtitle' => 'مقارنة نسب التسرب والأسباب الكامنة وراءها بناءً على الهويات الجندرية والفئات الاجتماعية.',
+    'gender_dynamics' => 'ديناميكيات التسرب حسب الجنس',
+    'gender_factors' => 'عوامل التسرب الأساسية حسب الجنس',
+    'caste_analytics' => 'تحليل الفئات الاجتماعية',
+    'caste_rates' => 'معدلات تسرب الفئات الاجتماعية',
+    'caste_distribution' => 'توزيع أسباب التسرب عبر الفئات الاجتماعية',
+
+    // Academic Sub-page
+    'academic_title' => 'التحليل الأكاديمي والعمري',
+    'academic_subtitle' => 'تحليل المؤشرات الأكاديمية والاتجاهات القائمة على العمر لعزل مراحل التسرب الرئيسية.',
+    'class_trendline' => 'مخطط اتجاه التسرب حسب الصف الدراسي (من الصف 1 إلى 12)',
+    'age_distribution' => 'توزيع التسرب حسب الفئة العمرية',
+    'transitional_shifts' => 'التحول الانتقالي في عوامل التسرب',
+
+    // Interventions Sub-page
+    'interventions_title' => 'التدخلات السياسية والمحاكاة',
+    'interventions_subtitle' => 'تصميم واختبار وتطبيق حلول مستهدفة للحد من معدلات تسرب الطلاب.',
+    'policy_simulator_title' => 'محاكي تأثير السياسات',
+    'policy_simulator_desc' => 'اختر مجموعات فرعية من الطلاب وأنواع الحلول لحساب التكاليف والحد المتوقع للتسرب.',
+    'target_dimension' => 'أبعاد الفئة المستهدفة',
+    'target_value_label' => 'قيمة معيار الاستهداف',
+    'policy_type' => 'نوع التدخل السياسي',
+    'expected_reduction' => 'الحد المتوقع من التسرب',
+    'recalculate_btn' => 'إعادة حساب النموذج',
+    'report_dropout_title' => 'الإبلاغ عن تسرب طالب',
+    'report_dropout_desc' => 'إرسال تقرير فوري عن تسرب طالب لاختبار تحديثات قاعدة البيانات والرسومات البيانية.',
+    'select_student' => 'اختر طالبًا نشطًا',
+    'primary_reason' => 'السبب الرئيسي للتسرب',
+    'file_report_btn' => 'الإبلاغ الفوري وتسجيل المعاملة',
+    'registry_title' => 'سجل التدخلات والسياسات النشطة',
+    'sim_target_desc' => 'استهداف جميع الطلاب من فئة :type = \':value\'.',
+    'sim_cost_desc' => 'التكلفة: ₹:cost لكل طالب سنويًا.',
+    'db_manager' => 'مدير قاعدة البيانات',
+    'db_diagnostics' => 'تشخيص وحالة قاعدة بيانات SQLite',
+    'db_connection' => 'حالة الاتصال',
+    'db_file_path' => 'مسار ملف قاعدة البيانات',
+    'db_file_size' => 'حجم ملف قاعدة البيانات',
+    'db_stats' => 'إحصائيات وحجم البيانات المقيدة',
+    'tbl_users' => 'حسابات المستخدمين المقيدة',
+    'tbl_schools' => 'المدارس المسجلة بالخدمة',
+    'tbl_students' => 'الطلاب المسجلين بالخدمة',
+    'tbl_schemes' => 'السياسات والخطط النشطة',
+    'add_school_btn' => 'تسجيل مدرسة جديدة',
+    'add_student_btn' => 'تسجيل وقيد طالب جديد',
+    'school_db' => 'السجل الرسمي للمدارس',
+    'student_db' => 'سجل الطلاب والخصائص الديموغرافية'
+];
